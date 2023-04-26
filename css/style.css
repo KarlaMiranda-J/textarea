@@ -67,22 +67,3 @@ footer {
     cursor: default;
 }
 
-@media (max-width: 600px){
-    main{
-        height: 92vh;
-    }
-    .cuadro1, .cuadro2, .btn-cont{
-        height: 25vh;
-        width: 100%;
-        margin: 0px;
-    }
-    #intxt{
-        line-height: 1.2em
-    }
-    .btn-code, .btn-copy{
-        width: 100%;
-    }
-    footer {
-        margin-top: 40%;
-    }
-}
