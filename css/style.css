@@ -1,0 +1,85 @@
+@import url('https://fonts.cdnfonts.com/css/gotham');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Gotham', sans-serif;
+}
+
+body {
+    background-color: #ECF1F4; 
+    max-height: fit-content;
+}
+
+main {
+    background-color: yellow;
+}
+
+.cuadros  {
+    background-color: red;
+}
+
+.cuadro1 {
+    background-color: blue;
+    width: 65%;
+    height: 45vh;
+    cursor:text;
+    overflow:hidden;
+}
+
+.cuadro2 {
+    background-color: green;
+    width: 30%;
+    height: 45vh;
+    overflow-wrap: break-word;
+}
+
+.alert {
+    background-color: blueviolet;
+}
+
+.btn-cont {
+    background-color: gray;
+    width: 100%;
+    max-height: 5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-code {
+    background-color: aqua;
+    width: 70%;
+    height: 5em;
+}
+
+.btn-copy {
+    background-color: burlywood;
+    width: 30%;
+    height: 5em;
+}
+
+footer {
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    cursor: default;
+}
+
+@media (max-width: 600px){
+    main{
+        height: 92vh;
+    }
+    .cuadro1, .cuadro2, .btn-cont{
+        height: 25vh;
+        width: 100%;
+        margin: 0px;
+    }
+    .btn-code, .btn-copy{
+        width: 100%;
+    }
+    footer {
+        margin-top: 40%;
+    }
+}
