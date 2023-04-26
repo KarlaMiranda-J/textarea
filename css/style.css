@@ -19,12 +19,10 @@ main {
 
 .cuadro1 {
     background-color: blue;
-    height: 45vh;
 }
 
 .cuadro2 {
     background-color: green;
-    height: 45vh;
 }
 
 .alert {
@@ -33,22 +31,14 @@ main {
 
 .btn-cont {
     background-color: gray;
-    width: 100%;
-    max-height: 5em;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .btn-code {
     background-color: aqua;
-    width: 65%;
-    height: 5em;
 }
 
 .btn-copy {
     background-color: burlywood;
-    width: 30%;
-    height: 5em;
 }
 
 footer {
