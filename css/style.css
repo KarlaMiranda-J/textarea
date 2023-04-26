@@ -78,6 +78,7 @@ footer {
     }
     #intxt{
         width: 50%;
+        line-height: 1.2em
     }
     .btn-code, .btn-copy{
         width: 100%;
