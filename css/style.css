@@ -47,7 +47,7 @@ main {
 
 .btn-code {
     background-color: aqua;
-    width: 70%;
+    width: 65%;
     height: 5em;
 }
 
@@ -77,7 +77,7 @@ footer {
         margin: 0px;
     }
     #intxt{
-        width: 100%;
+        width: 50%;
     }
     .btn-code, .btn-copy{
         width: 100%;
