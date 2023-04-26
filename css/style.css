@@ -24,9 +24,7 @@ main {
 
 .cuadro2 {
     background-color: green;
-    width: 30%;
     height: 45vh;
-    overflow-wrap: break-word;
 }
 
 .alert {
