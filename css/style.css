@@ -22,8 +22,21 @@ main {
     background-color: blue;
     width: 65%;
     height: 45vh;
-    cursor:text;
-    overflow:hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#intxt{
+    height: 40vh;
+    width: 100%;
+    padding: 2vh;
+    text-align: justify;
+    word-break: break-all;
+    overflow-y: scroll;
+    border-radius: 2%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: #F8F9FA;
 }
 
 .cuadro2 {
