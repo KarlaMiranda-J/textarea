@@ -84,12 +84,15 @@ footer {
     main{
         height: 92vh;
     }
-    .cuadro1, .cuadro2, .btn-cont{
+    .cuadro1, .cuadro2, .btn-cont {
         height: 25vh;
         width: 100%;
         margin: 0px;
     }
-    .btn-code, .btn-copy{
+    #intxt {
+        height: 20vh;
+    }
+    .btn-code, .btn-copy {
         width: 100%;
     }
     footer {
