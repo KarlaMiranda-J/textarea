@@ -11,7 +11,7 @@ body {
 }
 
 main {
-    background-color: yellow;
+    background-color: #ECF1F4;
 }
 
 .cuadros  {
@@ -20,6 +20,8 @@ main {
 .cuadro1 {
     width: 65%;
     height: 45vh;
+    background-color: #F8F9FA;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,14 +29,11 @@ main {
 
 #intxt{
     height: 42vh;
-    width: 100%;
+    width: 97%;
     padding: 2vh;
     text-align: justify;
     word-break: break-all;
     overflow-y: scroll;
-    border-radius: 2%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    background-color: #F8F9FA;
 }
 
 .cuadro2 {
@@ -43,17 +42,17 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: #F8F9FA;
 }
 
 #traduccion{
     height: 42vh;
-    width: 100%;
+    width: 97%;
     padding: 2vh;
     text-align: justify;
     word-break: break-all;
     overflow-y: scroll;
-    border-radius: 2%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     background-color: #F8F9FA;
     display: none;
 }
@@ -63,9 +62,6 @@ main {
     width: 100%;
     padding: 2vh;
     text-align: center;
-    border-radius: 2%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    background-color: #F8F9FA;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -94,9 +90,9 @@ main {
 .alert {
     height: 2em;
     width: 100%;
-    --bs-alert-padding-x: 0rem;
-    --bs-alert-padding-y: 0rem;
-    --bs-alert-margin-bottom: 0rem;
+    --bs-alert-padding-x: 0em;
+    --bs-alert-padding-y: 1em;
+    --bs-alert-margin-bottom: .5em;
 }
 
 .btn-cont {
@@ -105,13 +101,11 @@ main {
 }
 
 .btn-code {
-    background-color: aqua;
     width: 65%;
     height: 5em;
 }
 
 .btn-copy {
-    background-color: burlywood;
     width: 30%;
     height: 5em;
 }
