@@ -166,4 +166,7 @@ footer {
     #img {
         display: none;
     }
+    .alert {
+        margin-top: 1em;
+    }
 }
