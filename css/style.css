@@ -143,7 +143,11 @@ footer {
     #intxt, #traduccion {
         height: 20vh;
     }
-    .btn-code, .btn-copy{
+    .btn-code {
+        width: 100%;
+        height: 11.25em;
+    }
+    } .btn-copy{
         width: 100%;
     }
     #enbtn, #desbtn, #copy {
