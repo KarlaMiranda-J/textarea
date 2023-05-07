@@ -66,6 +66,10 @@ main {
     border-radius: 2%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     background-color: #F8F9FA;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .txt1 {
@@ -138,7 +142,7 @@ footer {
 
 @media (max-width: 600px){
     main{
-        height: 92vh;
+        height: 95vh;
     }
     .cuadro1, .cuadro2, .btn-cont {
         height: 25vh;
