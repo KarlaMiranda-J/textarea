@@ -161,6 +161,7 @@ footer {
     }
     #enbtn, #desbtn, #copy {
         width: 100%;
+        height: 2.5em;
         margin-bottom: 1em;
         margin-inline-end: 0em;
     }
