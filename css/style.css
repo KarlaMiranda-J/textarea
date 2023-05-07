@@ -143,10 +143,17 @@ footer {
     #intxt, #traduccion {
         height: 20vh;
     }
-    .btn-code, .btn-copy {
+    .btn-code, .btn-copy{
         width: 100%;
+    }
+    #enbtn, #desbtn, #copy {
+        width: 100%;
+        margin-bottom: 1em;
     }
     footer {
         margin-top: 40%;
+    }
+    #img {
+        display: none;
     }
 }
