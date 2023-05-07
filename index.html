@@ -23,25 +23,40 @@
     </header>
 
     <main class="container p-2 d-flex flex-column">
+
         <div class="cuadros d-flex flex-wrap justify-content-between">
             <div class="cuadro1">
                 <div contentEditable="true" id="intxt">Ingresa tu texto...</div>
             </div>
-            <div class="cuadro2">
-
+            <div class="cuadro2 d-flex flex-column align-content-between align-content-center">
+                <div id="traduccion"></div>
+                <div class="trad-cont">
+                    <div class="d-flex justify-content-center">
+                        <img src="img/nothingfound.png" width="200" height="120" alt="nothing found" id="img">
+                    </div>
+                    <div>
+                        <p class="fs-5 txt1" id="404">Ningún mensaje fue encontrado</p>
+                    </div>
+                    <div>
+                        <p class="txt2" id="404i">Ingresa el texto que desees encriptar o desencriptar</p>
+                    </div>
+                </div>
             </div>
         </div>
+
         <div class="alert">
-            <span class="material-symbols-outlined d-flex align-self-start mb-3 ms-3 fs-4 txt3">error
+            <span class="material-symbols-outlined d-flex align-self-start ms-3 fs-4 txt3 mt-0">error
                 <p class="txt3 d-flex align-self-start self ms-2 mt-1 fs-6">Solo letras minúsculas y sin acentos</p>
             </span>
         </div>
-        <div class="btn-cont">
-            <div class="btn-code">
 
+        <div class="pb-1 btn-cont d-flex flex-wrap justify-content-between">
+            <div class="btn-code d-flex justify-content-center align-content-center flex-wrap">
+                <button class="btn btn-primary me-5" id="enbtn">Encriptar</button>
+                <button class="btn btn-outline-primary" id="desbtn">Desencriptar</button>
             </div>
-            <div class="btn-copy">
-
+            <div class="btn-copy d-flex justify-content-around align-content-center flex-wrap">
+                <button class="btn btn-primary" id="copy">Copiar</button>
             </div>
         </div>
     </main>
